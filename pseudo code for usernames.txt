@@ -85,7 +85,48 @@ search_name(string first,char character, string last) {
         // return;
     }
 
-        together = first + character + last
+        first_part= first + character + last
     }
    
+**************************************************************
+redo-main.cpp
+**************************************************************
+
+string ascii_letters = {....};
+string numbers = {........};
+string special_characters{........};
+
+int main{
+    char end_part;
+
+ cout << ?? options
+        << ??
+        << ??
+        << ?? 
+      
+cin >> options // numbers picked
+
+// combining first_part with ending character choices
+while(true)
+    if(options == 1) {
+        first_part += ascii_letters; 
+    } else if(options == 2){
+        first_part += numbers;;
+    } else if (options == 3){
+        first_part += special_characters;
+    } else if(options == 4){
+        break
+    } else {
+        cout << "Pick an option(s) then press 4"
+    }
+
+ username = [ ];
+
+. i in end part
+ random_set = random.... pass into another variable
+username.append(random_set)
+
+cout << "Your new username is + _(variable)_;
+}
+
 */
