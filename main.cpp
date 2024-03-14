@@ -6,7 +6,7 @@ using namespace std;
 
 string ascii_letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-char retrieve_letter(){
+char retrieve_letters(){
     srand(time(NULL));
     int random_letter = rand() % ascii_letters.length();
     return ascii_letters[random_letter];
@@ -38,20 +38,21 @@ cout << "What is the additional username length?";
 string user_input = first_input + second_input;
  string characterList = "";
 
-
  while(true){
 cout << "pick an option";
 int choice;
 cin >> choice;
 if (choice == 1){
-    // for (i = 0, i < ascii_letters, i++)
+    //retrieve_letters will be used here
+    // for (i = 0, i < retrieve_letters, i++)
     // {
     //     // rand(i)
     // }
-    characterList += ;
+    characterList += //;
 } else if(choice == 2){
 
 }
+
 
 
  }
