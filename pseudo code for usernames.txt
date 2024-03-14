@@ -1,0 +1,91 @@
+
+/* Two files usernames.h & redo-main.cpp
+
+//user wants a random username
+search_name(string first,char character, string last) {
+    string first = {
+        {Masculine: sir, Mr...},
+        {Feminine:  Ms, Mrs,...},
+        {Neutral: wonderful, super, mysterious,metal...}
+        };
+    }
+
+    char character = {"-, _, +, ."}
+
+    string last = {
+        {Masculine: man, guy...};
+        {Feminine: girl, cutie....};
+        {Neutral: person,  }
+        }
+    }
+}
+
+ random_name(search_name){
+    // user chooses gender based array
+    i = 0; 
+    for (i; i < first.size()){
+        //the comp search the chosen array and pick a random index
+        // return;
+    }
+
+      j = 0; 
+    for (j; j< character.size(); j++){
+        //the comp search the chosen array and pick a random index
+        // return;
+    }
+
+      k = 0; 
+    for (k; k < last.size(); k++){
+        //the comp search the chosen array and pick a random index
+        // return;
+    }
+
+        together = first + character + last
+        // first part of username created
+ }
+    OR 
+
+    string first;
+    char character;
+    string last;
+
+ string first = {
+        {Masculine: sir, Mr...},
+        {Feminine:  Ms, Mrs,...},
+        {Neutral: wonderful, super, mysterious,metal...}
+        };
+    };
+
+    char character = {"-, _, +, ."};
+
+    string last = {
+        {Masculine: man, guy...},
+        {Feminine: girl, cutie....},
+        {Neutral: person,  }
+        };
+
+    random_name(string first, char character, string last){
+
+        // user chooses gender based array
+    i = 0; 
+    for (i; i < first[0].size()){
+        //the comp search the chosen array and pick a random index
+        // return;
+    }
+
+      j = 0; 
+    for (j; j< character.size(); j++){
+        //the comp search the chosen array and pick a random index
+        // return;
+    }
+
+      k = 0; 
+    for (k; k < last.size(); k++){
+        //the comp search the chosen array and pick a random index
+        // return;
+    }
+
+        together = first + character + last
+    }
+   
+*/
